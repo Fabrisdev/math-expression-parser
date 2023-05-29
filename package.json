@@ -1,0 +1,21 @@
+{
+  "name": "math-expression-parser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "interpreter": "node ./out/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/readline-sync": "^1.4.4",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
